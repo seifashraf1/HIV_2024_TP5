@@ -88,7 +88,7 @@ if __name__ == "__main__":
         -You goal is to keep the number of inputs as small as possible and the coverage as high as possible
         """
 
-        new_inputs_list = [1,2 ,3]
+        new_inputs_list = [1,2 ,3] # replace this list with the output of your generator
         
     except Exception as e:
         print(f"Exception occured: {e}")

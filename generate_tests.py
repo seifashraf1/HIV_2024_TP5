@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
     initial_coverage = coverage_data
 
-    # define your executor
+    # define the executor to be used with your test generator
     executor = AbstractExecutor(function_to_test)
 
     try:
@@ -88,7 +88,7 @@ if __name__ == "__main__":
         -You goal is to keep the number of inputs as small as possible and the coverage as high as possible
         """
 
-        new_inputs_list = ["1 + 1","2 + 1" ,"444 - 2"]
+        new_inputs_list = [1,2 ,3]
         
     except Exception as e:
         print(f"Exception occured: {e}")

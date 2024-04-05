@@ -6,7 +6,7 @@ from file_name_check import file_name_check
 from to_test.number_to_words import number_to_words
 import importlib
 
-key = "AIzaSyDgLdnKq7-CowiTn1KAMZYWbvnWD5K338k"
+key = ""
    
 
 if __name__ == "__main__":

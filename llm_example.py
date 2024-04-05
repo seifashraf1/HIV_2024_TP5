@@ -3,7 +3,6 @@ from common.llm_test_generator import LLMTestGenerator
 from common.prompt_generator import PromptGenerator
 from common.abstract_executor import AbstractExecutor
 from file_name_check import file_name_check
-from to_test.number_to_words import number_to_words
 import importlib
 
 key = ""

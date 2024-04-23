@@ -1,0 +1,12 @@
+def test_number_to_words(number_to_words):
+    assert number_to_words(0) == "Zero"
+    assert number_to_words(10) == "Ten"
+    assert number_to_words(15) == "Fifteen"
+    assert number_to_words(123) == "One Hundred Twenty Three"
+    assert number_to_words(1234) == "One Thousand Two Hundred Thirty Four"
+    assert number_to_words(12345) == "Twelve Thousand Three Hundred Forty Five"
+    assert number_to_words(123456) == "One Hundred Twenty Three Thousand Four Hundred Fifty Six"
+    assert number_to_words(1234567) == "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
+    assert number_to_words(12345678) == "Twelve Million Three Hundred Forty Five Thousand Six Hundred Seventy Eight"
+    assert number_to_words(123456789) == "One Hundred Twenty Three Million Four Hundred Fifty Six Thousand Seven Hundred Eighty Nine"
+    assert number_to_words(1234567890) == "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety"

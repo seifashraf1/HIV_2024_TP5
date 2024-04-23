@@ -12,7 +12,7 @@ import re
 import random
 import string
 
-key = "AIzaSyDgogz2-6LPY0fP4ASfeEWVKW4mteStmIM"
+key = ""
 
 
 def generate_inital_tests_with_llm(model, function_to_test):
